@@ -31,10 +31,3 @@
     $fruits = ['apple', 'banana', 'orange'];
     
 ?>
-
-<h5>Indexed Array</h5>
-
-<?php
-    $fruits = ['apple', 'banana', 'orange'];
-    
-?>
