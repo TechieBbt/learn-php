@@ -148,3 +148,4 @@ switch ($marks) {
 <?php include_once("./loop.php") ?>
 <?php include_once("./function.php") ?>
 <?php include_once("./array.php") ?>
+<?php include_once("./form.php") ?>
