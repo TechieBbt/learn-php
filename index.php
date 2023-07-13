@@ -144,8 +144,55 @@ switch ($marks) {
 ?>
 
 <br>
+<br>
+
+<?php
+    echo "Hello World";
+?>
+<br>
+<br>
+
+<?php
+    $Hey = "Hello PHP";
+
+    echo $Hey;
+?>
+<br>
+<br>
+
+<?php
+    $day = "1"; 
+
+switch ($day) {
+    case "1":
+        echo "Monday";
+        break;
+    case "2":
+        echo "Tuesday";
+        break;
+    case "3":
+        echo "Wednesday";
+        break;
+    case "4":
+        echo "Thursday";
+        break;
+    case "5":
+        echo "Friday";
+        break;
+    case "6":
+        echo "Saturday";
+        break;
+    case "7":
+        echo "Sunday";
+        break;
+    default:
+        echo "Invalid number";
+}
+?>
+
 
 <?php include_once("./loop.php") ?>
 <?php include_once("./function.php") ?>
 <?php include_once("./array.php") ?>
 <?php include_once("./form.php") ?>
+<?php include_once("./classwork.php") ?>

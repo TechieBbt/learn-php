@@ -42,3 +42,41 @@ $num = 1;
     } while ($num <= 5);
 
 ?>
+
+
+<h2>04-07 CLASSWORK</h2>
+
+<?php
+$prog = 5;
+    while ($prog <= 15) {
+        echo "Count: " . $prog . "<br>";
+        $prog++;
+    }
+?>
+
+<br>
+
+<?php
+    $number = 3;
+    $factorial = 1;
+
+    for ($i = 1; $i <= $number; $i++){
+        $factorial = $factorial * $i;
+        }
+
+    echo $factorial;
+?>
+
+<?php
+    function factorial($number) {
+        if ($number <= 1) {
+            return 1;
+        } else {
+            return $number * factorial($number - 1);
+        }
+    }
+    $number = 5;
+    $result = factorial($number);
+    echo "The factorial of $number is: $result";
+    
+?>
